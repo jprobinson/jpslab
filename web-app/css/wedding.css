@@ -1,0 +1,180 @@
+
+    
+    
+    
+/* CRUD STYLES */
+	.editBox{
+		background-color:white;
+		border:5px solid rgb(185,42,50);	
+	}
+
+	.closeButton{
+		position:absolute;
+		top:2;
+		right:2;
+		z-index:50;
+	}
+	
+	
+	
+/* WEDDING STYLES*/
+	body{
+		font-family:Verdana;
+		background-image:url(../images/wedding/grey.jpg);
+	}
+    .container{	
+		margin:auto;
+		width:1000px;
+		position:relative;
+    }
+    .weddingHeader{
+    	background-image:url(../images/wedding/wedLogo.jpg);
+    	background-repeat:no-repeat;
+    	background-position:center center;
+    	width:1000px;
+    	height:450px;
+    	display:block;
+    }
+    
+    .linkList{
+    	width:230px;
+    	position:absolute;
+    	top:500px;
+    	text-align:left;
+    }
+    
+    #hotelList{
+    	left:20px;
+    }
+    #venueList{
+    	left:260px;
+    }
+    #stLouisList{
+    	left:510px;
+    }
+    #registryList{
+    	left:770px;
+    }
+    
+    .linkEditor{
+    	height:200px;
+    	width:450px;
+    }
+    
+    
+    .linkUrl{
+    	font-weight:bold;
+    	 margin:0;
+    	 padding:0 0 0 5px;
+    	 font-size:14;
+    }
+    
+    .linkUrl   a:link {color:white;}
+	.linkUrl 	a:visited {color:white;} 
+	.linkUrl 	a:hover {color:white;} 
+	.linkUrl 	a:active {color:white;}
+	
+    .linkDescription{
+    	 color:white; 
+    	 font-size:11;
+    	 margin:0;
+    	 padding:0 0 10px 10px;
+    }
+    
+    .weddingCommentList{
+    	width:1000px;
+    	position:absolute;
+    	top:1580px;
+    	left:0px;
+    	color:white;
+    	text-align:center;
+    }
+    
+    .theMap{
+   		position:absolute;
+   		top:1080px;
+   		width:1000px;
+   		left:0px;
+	}
+
+    .commentList{
+    	text-align:center;
+    }
+    .commentForm{
+    	text-align:center;
+    	margin:0;
+  		padding:0;
+  		width:1000px;
+    }
+    .commentNameInput{
+    	
+    }
+    .commentSubmit{
+    	 
+    }
+    .commentor{
+    	margin:0;
+    	padding:0;
+    }
+    .date{
+    	font-size:x-small;
+    	margin:0;
+    	padding:0;
+    }
+    
+    .wrapper{
+    	text-align:center;
+    }
+    
+    .text{
+    	margin:0;
+    	padding:5px 0 10px 0;
+    	font-size:12;
+    }
+    .commentDivider{
+    	background-image:url(../images/wedding/commentDivider.jpg);
+    	background-repeat:no-repeat;
+    	height:22px;
+    	display:block;
+		padding:0 0 0 35px;  
+		width:1000px;
+  		background-position:center center;
+ 		margin:0px;
+    }
+    
+    .hotelImage{
+    	background-image:url(../images/wedding/hotelsIcon.jpg);
+    	background-repeat:no-repeat;
+    	width:198px;
+    	height:189px;
+    	display:block;
+		margin:0 0 0 15px;
+		padding:0 0 0 0;      
+    }
+    .venueImage{
+    	background-image:url(../images/wedding/venueIcon.jpg);
+    	background-repeat:no-repeat;
+    	width:207px;
+    	height:189px;
+    	display:block;
+		margin:0 0 0 15px;
+		padding:0;      
+    }
+    .registryImage{
+    	background-image:url(../images/wedding/registryIcon.jpg);
+    	background-repeat:no-repeat;
+    	width:199px;
+    	height:189px;
+    	display:block;
+		margin:0 0 0 15px;
+		padding:0;      	
+    }
+    .stlouisImage{
+    	background-image:url(../images/wedding/stlouisIcon.jpg);
+    	background-repeat:no-repeat;
+    	width:204px;
+    	height:189px;
+    	display:block;
+		margin:0 0 0 15px;
+		padding:0;      
+    }

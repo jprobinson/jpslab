@@ -1,0 +1,407 @@
+/* JPsLab TEMPLATE STYLES*/
+	body{
+    	background:rgb(0,118,163);
+    }
+    
+    form {
+		margin: 0;
+		padding: 0;
+	} 
+    
+    .body{
+    	text-align:left;
+    }
+    
+    .copyright{
+    	position:relative;
+    	color:white;
+    	width:200px;
+    	height:20px;
+    	display:block;
+		margin-left: auto;
+   		margin-right: auto;
+   		display:block;
+    }
+    	
+    .paginate {text-align:right;}
+    .paginate	.currentStep{color:grey;}
+	.paginate   a:link {z-index:100;color:white; padding:0 5 0 5; }
+	.paginate 	a:visited {z-index:100;color:white; padding:0 5 0 5;} 
+	.paginate 	a:hover {z-index:100;color:white; padding:0 5 0 5;} 
+	.paginate 	a:active {z-index:100;color:white; padding:0 5 0 5;}
+		
+    .copyright  a:link {z-index:100;color:white;text-decoration:none; }
+	.copyright 	a:visited {z-index:100;color:white;text-decoration:none; } 
+	.copyright 	a:hover {z-index:100;color:white;text-decoration:none; } 
+	.copyright 	a:active {z-index:100;color:white;text-decoration:none; }
+
+	.bodyDiv{
+		width:940px;
+		text-align:center;
+	
+	}
+	
+	.bodyList{
+		width:810px;
+		border-spacing:0px;
+		float:right;		
+	} 
+	
+	.jpsBody{
+		float:left;
+		width:130px;
+		height:500px;
+		border-spacing:0px;
+		padding:0;
+		background-image:url('../images/JP.gif');
+		background-position:center center; 
+		background-repeat:no-repeat;
+		
+	}
+	
+	#sidebar {
+          width: 130px;
+          float: left;
+    }
+
+    #followontumblr {
+            background: url('../images/FollowOnTumblr.png');
+            text-indent: -9999px;
+            position:relative;
+            height:25px;
+        }
+        
+        #wrapper #sidebar #top .heading#followontumblr:hover,
+        #wrapper #sidebar #top .heading#twitter:hover {
+            opacity: 0.9;
+            filter: alpha(opacity=90);
+            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+        }
+        
+    
+    .mainDiv{
+    	display:block;
+   		width:810px;
+   		float:right;
+    }
+    
+	.imageHolder{
+		margin-left: auto;
+   		margin-right: auto;
+   		width:750px;
+	}
+	.imageHolderLeft{
+		float:left;
+   		width:320px;
+   		margin: 0px 10px 0px 0px;
+   		padding: 0px 5px 0px 5px;
+	}
+	.imageHolderRight{
+		float:right;
+   		width:320px;
+   		margin: 0px 0px 0px 10px;
+   		padding: 0px 5px 0px 5px;
+	}
+	.imageHolderLeft center {
+	   	font-family:futura, helvetica, arial, sans-serif;
+   		font-size:11;
+	}	
+	.imageHolderRight center {
+	   	font-family:futura, helvetica, arial, sans-serif;
+   		font-size:11;
+	}
+	.imageHolder center {
+	   	font-family:futura, helvetica, arial, sans-serif;
+   		font-size:11;
+	}
+
+    .jpslabHeader{
+    	width:810px;
+    	height:150px;
+    	background-image:url('../images/header.gif');
+    	background-repeat:no-repeat;
+    	float:right;
+    }
+    
+    .labImage{			
+		border:5px solid rgb(185,42,50);
+		max-width:750px;
+		width: expression(this.width > 750px ? 750px: true);
+		display:block;
+	
+	}  
+	
+	.labImageLeft{			
+		border:5px solid rgb(185,42,50);
+		max-width:320px;
+		width: expression(this.width > 320px ? 320px: true);
+		display:block;
+		float:left;
+	}  	
+	
+	.labImageRight{			
+		border:5px solid rgb(185,42,50);
+		max-width:320px;
+		width: expression(this.width > 320px ? 320px: true);
+		display:block;
+		float:right;
+	}  		
+	
+    a:link {color:rgb(50,27,19)}
+	a:visited {color:rgb(50,27,19)} 
+	a:hover {color:rgb(50,27,19)} 
+	a:active {color:rgb(50,27,19)}
+    
+/* PHOTO STYLES */    
+    .photoEditor{
+		background-color:white;
+		border:5px solid rgb(185,42,50);
+		position:absolute;
+		top:0;
+		left:980px;
+		width:300px;
+	}
+	
+	.photoListing{
+		padding:0;
+		margin:0;
+		width:290px;
+		list-style-type:none;
+		position:relative;
+	}
+	
+	.photoListing form {
+		width:300px;
+	}
+	
+	.photoIcon{
+		position:absolute;
+		top:0;
+		left:980px;
+	}
+	
+	.photoEditorBox{
+		width:100px;
+	}
+    
+    
+    
+/* CRUD STYLES */
+	.editBox{
+		background-color:white;
+		border:5px solid rgb(185,42,50);	
+	}
+
+	.closeButton{
+		position:absolute;
+		top:2;
+		right:2;
+		z-index:50;
+	}
+	
+	
+	
+/* NAVBAR STYLES  */
+	.navBar{
+		margin:0px;
+		padding:14px 0px;
+	}
+	
+	#homeLink{
+		background-image:url('../images/home.gif');
+		background-position:center; 
+		background-repeat:no-repeat;	
+		padding:10px 35px 10px 35px;
+	}
+	
+	#creationsLink{
+		background-image:url('../images/creations.gif');
+		background-position:center; 
+		background-repeat:no-repeat;	
+		padding:10px 55px 10px 55px;
+	}
+	
+	#aboutLink{
+		background-image:url('../images/about.gif');
+		background-position:center; 
+		background-repeat:no-repeat;	
+		padding:10px 50px 10px 50px;	
+	}
+	
+	.navBarLink{
+		display:inline;
+		list-style-type:none;
+		padding:25px;
+	}
+	
+	.navBarLink a{
+		font-size:18;
+		font-family:futura, helvetica, arial, sans-serif;
+		text-decoration: none;
+		font-color:black;	
+		text-align:left;
+		min-height: 100px;
+	}	
+	.navBarLink a:link {color:white}
+	.navBarLink a:visited {color:white}
+	.navBarLink a:hover {color:white}
+	.navBarLink a:active {color:white}
+	
+	.currPage{
+		background-image:url('../images/lab_splatter.gif');
+		background-position:center; 
+		background-repeat:no-repeat;
+	}
+	
+	.shareLink{
+		font-size:7pt;
+		padding:15px 0 5px 0px;
+		list-style-type: none;
+	}
+	
+/* COMMENT STYLES */	
+	.commentsLink{
+		left:565px;
+		position:relative;
+		font-size:10;
+	}
+   
+	.commentList{
+   		font-size:11;
+   }
+
+	.commentListing{
+		list-style-type: none;
+	}
+
+	
+/* ABOUTME STYLES */	
+	.aboutEditor{
+		height:245px;
+		width:700px;
+	}
+
+	
+	.aboutList{
+		width:810px;
+		border-spacing:0px;
+		float:right;		
+	} 
+	
+	.aboutBody{
+		background:#ececec;
+		border-radius:15px;
+		-moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+		border:5px solid #cc3333;
+		width:810px;
+	}
+	
+	.aboutBodyText{
+		padding:0px;
+		margin:15px 10px 15px 25px; 
+		width:750px;
+		position:relative;
+		font-family:futura, helvetica, arial, sans-serif;
+		text-align:left;
+	}
+	
+/* CREATION STYLES */
+	.creationsEditor{
+		height:245px;
+		width:700px;
+	}
+	
+	.creationsName{
+		font-size:x-large;
+	}
+
+	
+	.creationsList{
+		width:810px;
+		border-spacing:0px;
+		float:right;		
+	} 
+	
+	.creationsBody{
+		background:#ececec;
+		border-radius:15px;
+		-moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+		border:5px solid #cc3333;
+		width:810px;
+	}
+	
+	.creationsBodyText{
+		width:750px;
+		position:relative;
+		font-family:futura, helvetica, arial, sans-serif;
+		text-align:left;
+		padding:0px;
+		margin:15px 10px 15px 25px; 
+	}
+	
+	.creationsBodyText .shareCreations{
+		font-size:6pt;
+		padding:15px 0 5px 0px;
+	}
+	
+	
+/* EDITABLE BOX STYLES */
+
+.boxeditor {
+	background:#24b494;
+	height: 230px;
+	width:600px;
+	position:absolute;
+	border: groove;
+}
+
+.boxeditor .track {
+	background-color: #ffffff;	
+	position: absolute;
+	height: 5px;
+	width:  400px;
+	left: 100px;
+}
+.boxeditor .handle {
+	background-color: red;
+	position: absolute;
+	top: -12.5px;
+	height: 25px;
+	width: 5px;
+	cursor:-moz-grab; 
+}
+.boxeditor .rhandle {
+	background-color: red;
+	position: absolute;
+	top: -12.5px;
+	height: 25px;
+	width: 5px;
+	cursor:-moz-grab; 
+}
+.boxeditor .ghandle {
+	background-color: green;
+	position: absolute;
+	top: -12.5px;
+	height: 25px;
+	width: 5px;
+	cursor:-moz-grab; 
+}
+.boxeditor .bhandle {
+	background-color: blue;
+	position: absolute;
+	top: -12.5px;
+	height: 25px;
+	width: 5px;
+	cursor:-moz-grab; 
+}
+
+
+.errorMessage{
+    margin:auto;
+	background-image:url('../images/jperrorface.png');
+	width:432px;	
+	height:432px;
+	display:block;
+}
